@@ -1,0 +1,14 @@
+name: Restrict Vehicles
+type: module
+description: Restricts access to vehicles with the first registration year 2020.
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:node
+
+services:
+  restrict_vehicles.vehicle_access_subscriber:
+    class: Drupal\restrict_vehicles\EventSubscriber\VehicleAccessSubscriber
+    arguments: ['@current_user']
+    tags:
+      - { name: event_subscriber }

@@ -59,3 +59,11 @@
 *.ttf     -text diff
 *.woff    -text diff
 *.woff2   -text diff
+
+
+
+# Χρήση LF για όλα τα αρχεία
+* text=auto eol=lf
+
+# Χρήση CRLF για αρχεία μόνο αν είναι απαραίτητο (π.χ. .bat)
+*.bat text eol=crlf

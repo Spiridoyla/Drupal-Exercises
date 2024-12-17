@@ -1,0 +1,16 @@
+name: 'My Bartik Subtheme'
+type: theme
+base theme: bartik
+description: 'A subtheme of Bartik'
+core_version_requirement: ^8 || ^9
+package: Custom
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  content: 'Content'
+  sidebar_first: 'First sidebar'
+  sidebar_second: 'Second sidebar'
+  footer: 'Footer'
+libraries:
+  - my_bartik_subtheme/global-styling
