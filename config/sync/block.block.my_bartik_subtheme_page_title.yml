@@ -1,0 +1,20 @@
+uuid: 9c9c0e61-d799-40c3-8b04-12e1770aa158
+langcode: el
+status: true
+dependencies:
+  theme:
+    - my_bartik_subtheme
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: my_bartik_subtheme_page_title
+theme: my_bartik_subtheme
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Τίτλος σελίδας'
+  label_display: '0'
+  provider: core
+visibility: {  }

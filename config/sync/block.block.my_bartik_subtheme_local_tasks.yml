@@ -1,0 +1,22 @@
+uuid: 1928e283-d640-4000-a2bf-000dc338889b
+langcode: el
+status: true
+dependencies:
+  theme:
+    - my_bartik_subtheme
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: my_bartik_subtheme_local_tasks
+theme: my_bartik_subtheme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Καρτέλες
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

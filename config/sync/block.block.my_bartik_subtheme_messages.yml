@@ -1,0 +1,22 @@
+uuid: c69a9f8c-0b76-4244-b8c3-b3f394fc4aa2
+langcode: el
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - my_bartik_subtheme
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: my_bartik_subtheme_messages
+theme: my_bartik_subtheme
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Μηνύματα κατάστασης'
+  label_display: '0'
+  provider: system
+visibility: {  }

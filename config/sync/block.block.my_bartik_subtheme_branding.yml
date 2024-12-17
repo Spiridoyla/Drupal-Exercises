@@ -1,0 +1,25 @@
+uuid: fd539eeb-1f22-4f8c-8b10-19279a033942
+langcode: el
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - my_bartik_subtheme
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: my_bartik_subtheme_branding
+theme: my_bartik_subtheme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

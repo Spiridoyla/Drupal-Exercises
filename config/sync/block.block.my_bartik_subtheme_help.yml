@@ -1,0 +1,22 @@
+uuid: cefb8b47-2a7c-4ebc-b59a-89e09da7ca3f
+langcode: el
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - my_bartik_subtheme
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: my_bartik_subtheme_help
+theme: my_bartik_subtheme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Βοήθεια
+  label_display: '0'
+  provider: help
+visibility: {  }

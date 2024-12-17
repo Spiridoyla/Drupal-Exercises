@@ -1,0 +1,22 @@
+uuid: 46d9aabb-f865-4cbb-9741-073af692db49
+langcode: el
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - my_bartik_subtheme
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: my_bartik_subtheme_content
+theme: my_bartik_subtheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Περιεχόμενο κεντρικής σελίδας'
+  label_display: '0'
+  provider: system
+visibility: {  }
