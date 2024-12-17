@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.vehicle.field_date
     - field.field.node.vehicle.field_image
     - field.field.node.vehicle.field_price
+    - field.field.node.vehicle.field_term_reference
     - image.style.thumbnail
     - node.type.vehicle
   module:
@@ -55,6 +56,16 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  field_term_reference:
+    type: entity_reference_autocomplete
+    weight: 125
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

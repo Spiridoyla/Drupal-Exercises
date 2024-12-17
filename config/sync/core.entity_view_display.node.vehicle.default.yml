@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.vehicle.field_date
     - field.field.node.vehicle.field_image
     - field.field.node.vehicle.field_price
+    - field.field.node.vehicle.field_term_reference
     - node.type.vehicle
   module:
     - datetime
@@ -54,6 +55,14 @@ content:
       format_custom_true: ''
     third_party_settings: {  }
     weight: 103
+    region: content
+  field_term_reference:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
     region: content
   links:
     settings: {  }

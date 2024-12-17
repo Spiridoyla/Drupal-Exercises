@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.vehicle.field_date
     - field.field.node.vehicle.field_image
     - field.field.node.vehicle.field_price
+    - field.field.node.vehicle.field_term_reference
     - node.type.vehicle
   module:
     - text
@@ -34,4 +35,5 @@ hidden:
   field_date: true
   field_image: true
   field_price: true
+  field_term_reference: true
   langcode: true
