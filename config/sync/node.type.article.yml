@@ -1,0 +1,13 @@
+uuid: 70f53b73-6fe8-4573-9cbf-a3f4d4ec3bba
+langcode: el
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Άρθρο
+type: article
+description: 'Χρησιμοποιήστε τα <em>άρθρα</em> για ευαίσθητο στο χρόνο περιεχόμενο όπως νέα, δελτία τύπου ή ιστολογήματα.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

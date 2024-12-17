@@ -1,0 +1,13 @@
+uuid: db2ea02b-5761-4bcf-9e00-d40e072ecb62
+langcode: el
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Προσωπική φόρμα επικοινωνίας'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Το μήνυμά σας στάλθηκε.'
+redirect: ''

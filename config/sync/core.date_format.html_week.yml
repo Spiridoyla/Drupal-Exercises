@@ -1,0 +1,10 @@
+uuid: 259f7cad-c5f3-4dd7-b5dc-e01be53de1c2
+langcode: el
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
+id: html_week
+label: 'HTML Εβδομάδα'
+locked: true
+pattern: Y-\WW

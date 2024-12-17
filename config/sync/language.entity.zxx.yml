@@ -1,0 +1,11 @@
+uuid: 44d9cb53-b5db-49cc-bd5d-3c89fdb08aa3
+langcode: el
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 35CefWbnzaiytcg3acexxz_GTvuwIjYd_ZTcmmR-tXA
+id: zxx
+label: 'Μη εφαρμόσιμο'
+direction: ltr
+weight: 3
+locked: true

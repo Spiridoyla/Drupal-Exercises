@@ -1,0 +1,12 @@
+uuid: 47e46960-6d97-46c0-b158-928858f1d8ae
+langcode: el
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ElrtInxGjZd7GaapJ5O9n-ugi2hG2IxFivtgn0tHOsk
+id: node.full
+label: 'Πλήρες περιεχόμενο'
+targetEntityType: node
+cache: true

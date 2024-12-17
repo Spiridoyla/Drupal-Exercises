@@ -1,0 +1,10 @@
+uuid: ba5c737a-e64d-4907-b475-e1c815f0a4b8
+langcode: el
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Z7KuCUwM_WdTNvLcoltuX3_8d-s-8FZkTN6KgNwF0eM
+id: html_month
+label: 'HTML Μήνας'
+locked: true
+pattern: Y-m

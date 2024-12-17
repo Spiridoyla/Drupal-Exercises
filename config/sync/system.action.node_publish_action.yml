@@ -1,0 +1,13 @@
+uuid: b63367c1-bb0b-4a32-8726-6ba45b9cc855
+langcode: el
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
+id: node_publish_action
+label: 'Δημοσίευση περιεχομένου'
+type: node
+plugin: 'entity:publish_action:node'
+configuration: {  }

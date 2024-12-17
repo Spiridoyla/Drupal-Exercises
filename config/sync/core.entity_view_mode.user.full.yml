@@ -1,0 +1,12 @@
+uuid: 245c924b-7d52-4e0e-b7dd-138267fd89f1
+langcode: el
+status: false
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
+id: user.full
+label: 'Λογαριασμός χρήστη'
+targetEntityType: user
+cache: true
