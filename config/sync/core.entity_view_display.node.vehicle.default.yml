@@ -1,0 +1,51 @@
+uuid: 223f881d-9131-4041-b123-e3df20327135
+langcode: el
+status: true
+dependencies:
+  config:
+    - field.field.node.vehicle.body
+    - field.field.node.vehicle.field_date
+    - field.field.node.vehicle.field_price
+    - node.type.vehicle
+  module:
+    - datetime
+    - text
+    - user
+id: node.vehicle.default
+targetEntityType: node
+bundle: vehicle
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_price:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

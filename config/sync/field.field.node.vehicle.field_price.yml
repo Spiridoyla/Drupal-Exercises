@@ -1,0 +1,21 @@
+uuid: feee0562-3373-4ad8-9573-5a7b994518ee
+langcode: el
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.vehicle
+id: node.vehicle.field_price
+field_name: field_price
+entity_type: node
+bundle: vehicle
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Ανοικτό
+  off_label: Κλειστό
+field_type: boolean
