@@ -5,10 +5,13 @@ dependencies:
   config:
     - field.field.node.vehicle.body
     - field.field.node.vehicle.field_date
+    - field.field.node.vehicle.field_image
     - field.field.node.vehicle.field_price
+    - image.style.thumbnail
     - node.type.vehicle
   module:
     - datetime
+    - image
     - path
     - text
 id: node.vehicle.default
@@ -37,6 +40,14 @@ content:
     weight: 122
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 124
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
   field_price:
     type: boolean_checkbox
