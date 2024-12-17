@@ -1,5 +1,5 @@
 uuid: a112c885-1103-4744-9493-f4572194054e
-langcode: en
+langcode: el
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: 'User account menu'
+  label: 'Μενού λογαριασμού χρήστη'
   label_display: '0'
   provider: system
   level: 1

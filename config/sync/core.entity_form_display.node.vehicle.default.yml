@@ -5,14 +5,12 @@ dependencies:
   config:
     - field.field.node.vehicle.body
     - field.field.node.vehicle.field_date
-    - field.field.node.vehicle.field_image
+    - field.field.node.vehicle.field_media_image
     - field.field.node.vehicle.field_price
     - field.field.node.vehicle.field_term_reference
-    - image.style.thumbnail
     - node.type.vehicle
   module:
     - datetime
-    - image
     - path
     - text
 id: node.vehicle.default
@@ -42,13 +40,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_image:
-    type: image_image
-    weight: 124
+  field_media_image:
+    type: entity_reference_autocomplete
+    weight: 126
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_price:
     type: boolean_checkbox

@@ -1,0 +1,12 @@
+uuid: d34a6261-99e6-47b3-9657-67cbb2cd0aa5
+langcode: el
+status: false
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 6NBUEuGmlkClK8Fb76tSMMpO2eZ4LWCBdbUk4z7CuP0
+id: media.full
+label: 'Πλήρες περιεχόμενο'
+targetEntityType: media
+cache: true

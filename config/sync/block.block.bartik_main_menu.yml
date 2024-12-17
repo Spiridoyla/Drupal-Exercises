@@ -1,5 +1,5 @@
 uuid: c3996961-2f8c-4233-8488-e8527a5fea45
-langcode: en
+langcode: el
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Main navigation'
+  label: 'Κεντρική πλοήγηση'
   label_display: '0'
   provider: system
   level: 1

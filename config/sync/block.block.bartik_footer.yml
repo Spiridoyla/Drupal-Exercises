@@ -1,5 +1,5 @@
 uuid: 712f8ef0-8461-4741-9b15-f7b88b225779
-langcode: en
+langcode: el
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Footer menu'
+  label: 'Μενού υποσέλιδου'
   label_display: '0'
   provider: system
   level: 1

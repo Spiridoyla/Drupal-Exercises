@@ -1,0 +1,23 @@
+uuid: 710d32f2-e13f-465a-a1f1-11b5c46f74bd
+langcode: el
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_image
+    - node.type.vehicle
+id: node.vehicle.field_media_image
+field_name: field_media_image
+entity_type: node
+bundle: vehicle
+label: media_image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media_type'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

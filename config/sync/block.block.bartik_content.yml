@@ -1,5 +1,5 @@
 uuid: a7d2816b-ff07-4c22-9a98-5eab549a4090
-langcode: en
+langcode: el
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Main page content'
+  label: 'Περιεχόμενο κεντρικής σελίδας'
   label_display: '0'
   provider: system
 visibility: {  }
