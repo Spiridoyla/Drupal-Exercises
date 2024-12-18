@@ -1,17 +1,17 @@
 # Drupal core files 
-web/core/
+core/
 vendor/
 
 # Uploaded files
-web/sites/default/files/
+sites/default/files/
 
 # Temporary files
-web/sites/default/private/
-web/sites/default/files/php/
-web/sites/default/files/.htaccess
+sites/default/private/
+sites/default/files/php/
+sites/default/files/.htaccess
 
 # Configuration overrides (προαιρετικά, αν περιέχουν ευαίσθητα δεδομένα)
-web/sites/default/settings.local.php
+sites/default/settings.local.php
 
 # System files
 *.log
