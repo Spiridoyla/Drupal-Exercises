@@ -1,5 +1,7 @@
 # Drupal core files 
 web/core/
+!web/core/themes/bartik/
+
 vendor/
 
 # Uploaded files
