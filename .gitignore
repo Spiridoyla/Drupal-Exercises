@@ -1,3 +1,5 @@
+.ddev/
+
 # Drupal core files 
 web/core/
 !web/core/themes/bartik/
